@@ -17,3 +17,34 @@ Rocket.q is designed to be easy to use and lightweight, perfect for live Q&A eve
 1. Clone the repository:
 ```bash
 git clone https://github.com/SEU_USUARIO/rocket.q.git
+Enter the project folder:
+
+cd rocket.q
+
+
+Install dependencies:
+
+npm install
+
+Usage
+
+To run the application:
+
+npm start
+
+
+Then access http://localhost:3000
+
+Project Structure
+
+views/ → EJS templates
+
+public/ → CSS, images, scripts
+
+db/ → database or configuration files
+
+routes/ → Express routes
+
+Contributing
+
+Feel free to open issues or send pull requests.

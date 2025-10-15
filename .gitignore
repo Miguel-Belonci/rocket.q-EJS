@@ -3,22 +3,33 @@ logs
 *.log
 npm-debug.log*
 yarn-debug.log*
-yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
+# Dependências
+node_modules/
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
+# Build / distribuição (se tiver)
+dist/
+dist-ssr/
+build/
+
+# Arquivos locais
+.env
+*.local
 .DS_Store
+
+# Banco de dados local
+*.sqlite
+
+# Configs de editor
+.vscode/
+.idea/
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+
+# Sistema operacional
+Thumbs.db
